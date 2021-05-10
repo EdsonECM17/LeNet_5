@@ -52,7 +52,7 @@ history = mnist_lenet_model.fit(train_x, train_y, batch_size=128, epochs=20,
 plot_results(history, 'MNIST/')
 
 # Evaluate model
-loss, accuracy = mnist_lenet_model .evaluate(test_x, test_y)
+loss, accuracy = mnist_lenet_model.evaluate(test_x, test_y)
 
 print('Test Loss:', loss)
 print('Test accuracy:', accuracy)
